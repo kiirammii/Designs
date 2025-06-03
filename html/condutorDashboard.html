@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Percursos</title>
+  <link rel="stylesheet" href="../../styles/condutorDashboard.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Logotipo</div>
+    <div class="header-actions">
+      <span class="user-role">Condutor</span>
+      <span class="icon">&#128100;</span>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li>Horários</li>
+      <li class="active">Percursos</li>
+    </ul>
+  </nav>
+  <main>
+    <p class="welcome">Bem-vindo, (nome do utilizador)</p>
+    <div class="dashboard-box">
+      <div class="dashboard-content">
+        <div>
+          <h2>Viagens para hoje</h2>
+          <table class="main-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Horas</th>
+                <th>Rota</th>
+                <th>Veículo</th>
+                <th>Trajetos Alternativos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>34</td>
+                <td>09:00</td>
+                <td>Courelas - Centro</td>
+                <td>PT-1234</td>
+                <td>4, 6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="calendar-box">
+          <div class="calendar">
+            <div class="calendar-header">
+              <span>Maio 2025</span>
+              <span class="calendar-arrows">&lt; &gt;</span>
+            </div>
+            <table class="calendar-table">
+              <thead>
+                <tr>
+                  <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+                <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+                <tr><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+                <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
+                <tr><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td></tr>
+              </tbody>
+            </table>
+            <button class="calendar-select">Selecionar</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Trajetos Alternativos</h3>
+        <table class="alt-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>entre..</th>
+              <th>Paragem</th>
+              <th>e</th>
+              <th>Paragem</th>
+              <th>seguir..</th>
+              <th>Caminho</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>4</td>
+              <td>Courelas</td>
+              <td>Tasquinha Janota</td>
+              <td></td>
+              <td></td>
+              <td>Rua das Cruzes</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Barreiros</td>
+              <td>Cruz Vermelha</td>
+              <td></td>
+              <td></td>
+              <td>Bairro de Baixo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

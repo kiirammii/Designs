@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../styles/adminDashboard.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Logotipo</div>
+    <div class="header-actions">
+      <span class="user-role">Condutor</span>
+      <span class="icon">&#128100;</span>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li>Rotas</li>
+      <li>Paragens</li>
+    </ul>
+  </nav>
+  <main>
+    <p class="welcome">Bem-vindo, (nome do utilizador)</p>
+    <div class="dashboard-box">
+      <div class="dashboard-content">
+        <div class="main-section">
+          <h2>Viagens para hoje</h2>
+          <table class="main-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Horas</th>
+                <th>Rota</th>
+                <th>Veículo</th>
+                <th>Condutor</th>
+                <th>Trajetos Alternativos</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>34</td>
+                <td>09:00</td>
+                <td>Courelas - Centro</td>
+                <td>PT-1234</td>
+                <td>4</td>
+                <td>4, 6</td>
+                <td>
+                  <button class="icon-btn" title="Editar">&#9998;</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="calendar-box">
+          <div class="calendar">
+            <div class="calendar-header">
+              <span>Maio 2025</span>
+              <span class="calendar-arrows">&lt; &gt;</span>
+            </div>
+            <table class="calendar-table">
+              
+            <button class="calendar-select">Selecionar</button>
+          </div>
+          <button class="create-btn">Criar viagem</button>
+        </div>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Rotas</h3>
+          <button class="create-btn">Criar rota</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Paragens</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>3</td>
+              <td>Courelas - Centro</td>
+              <td><button class="view-btn">Ver paragens</button></td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Centro - Courelas</td>
+              <td><button class="view-btn">Ver paragens</button></td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Barreiros - Avenida</td>
+              <td><button class="view-btn">Ver paragens</button></td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Paragens</h3>
+          <button class="create-btn">Criar paragem</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+              <th>Nome</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1147</td>
+              <td>32.666400000</td>
+              <td>-16.92450000</td>
+              <td>Rua 4 Pico Romeiras, D</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>1098</td>
+              <td>32.666400000</td>
+              <td>-16.92450000</td>
+              <td>Rua 4 Pico Romeiras, D</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>1100</td>
+              <td>32.666400000</td>
+              <td>-16.92450000</td>
+              <td>Rua 4 Pico Romeiras, D</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Veículos</h3>
+          <button class="create-btn">Criar veículo</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Matrícula</th>
+              <th>Capacidade</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>3</td>
+              <td>PT-1234</td>
+              <td>50</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>FE-4434</td>
+              <td>65</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>TS-PMO</td>
+              <td>100</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Trajetos Alternativos</h3>
+          <button class="create-btn">Criar trajeto</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Stop Id 1</th>
+              <th>Stop Id 2</th>
+              <th>Trajetoria</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>137</td>
+              <td>2</td>
+              <td>8</td>
+              <td>Desvio pela Rua dos Murças.</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>276</td>
+              <td>10</td>
+              <td>17</td>
+              <td>Percurso alternativo pela Avenida do Mar.</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>276</td>
+              <td>10</td>
+              <td>17</td>
+              <td>Rota de emergência via Estrada Monumental.</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Meteorologia</h3>
+          <button class="create-btn">Criar registo</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Data</th>
+              <th>Temperatura</th>
+              <th>Chuva</th>
+              <th>Vento</th>
+              <th>Localização</th>
+              <th>Notas</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>34</td>
+              <td>2025-04-03 07:30:00</td>
+              <td>22.50</td>
+              <td>0.00</td>
+              <td>5.20</td>
+              <td>Praça Povo</td>
+              <td>Céu limpo durante toda a manhã.</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section-row">
+        <div class="section-header">
+          <h3>Utilizadores</h3>
+          <button class="create-btn">Criar utilizador</button>
+        </div>
+        <table class="main-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Cargo</th>
+              <th>Contacto</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>4</td>
+              <td>João Ferreira</td>
+              <td>jf@gmail.com</td>
+              <td>Condutor</td>
+              <td>910102345</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Teste da Silva</td>
+              <td>teste@gmail.com</td>
+              <td>Admin</td>
+              <td>910000123</td>
+              <td><button class="icon-btn" title="Editar">&#9998;</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
