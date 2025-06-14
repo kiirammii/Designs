@@ -62,28 +62,9 @@ nav li.active {
   text-decoration: underline;
 }
 
-main {
-  margin: 60px auto 0 auto;
-  max-width: 900px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-row {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  margin-bottom: 24px;
-}
-
 .form-group {
   display: flex;
   flex-direction: column;
-  min-width: 350px;
 }
 
 label {
@@ -91,46 +72,66 @@ label {
   margin-bottom: 8px;
 }
 
-select {
-  border: 2px solid #222;
-  border-radius: 10px;
-  font-size: 1.3rem;
-  padding: 8px 16px;
-  width: 100%;
-  margin-bottom: 8px;
-}
-
-option:hover {
-  background-color: #FFD60A
-}
-
-.button-row {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
-
 button[type="submit"] {
   background: #0080bd;
   color: #fff;
   font-size: 1.3rem;
-  padding: 16px 40px;
+  padding: 8px 30px;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 button .arrow {
-  font-size: 1.5rem;
+  font-size: 1.5rem
 }
 
-.dropdown-item {
-  background-color: white;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
 }
 
-.dropdown-item:hover {
-  background-color: #FFD60A;
+label {
+  margin-bottom: 0px;
+  font-size:  1.3rem;
+  color: #000000;
+}
+
+.optgroup {
+  display: flex;
+  flex-direction: column;
+  margin: 20px
+}
+
+select {
+  height: 35px;
+  width: 300px;
+  text-align: center;
+  background-color: #90E0EF;
+  border: 2px solid #222;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+option {
+  background-color: #fff;
+}
+
+.selections {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-row {
+  margin-top: 30px;
 }
