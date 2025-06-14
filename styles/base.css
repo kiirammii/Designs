@@ -31,6 +31,18 @@ header {
   justify-content: center;
 }
 
+.header-actions a, .header-actions span{
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.header-actions a:hover {
+  color: var(--accent);
+  transition: color 0.2s;
+}
+
 .navbar {
   background: var(--primary) !important;
   font-size: 1.2rem;
@@ -39,7 +51,8 @@ header {
 
 .nav-link {
   color: var(--background);
-  margin: 0px 35px 0px 15px
+  margin: 0px 35px 0px 15px;
+  text-decoration: none;
 }
 
 .nav-link:hover {
