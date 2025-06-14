@@ -113,24 +113,6 @@ main {
   margin-top: 2px;
 }
 
-.edit-btn {
-  position: absolute;
-  right: 0;
-  top: 18px;
-  background: #fff;
-  border: 1px solid #d6d1d1;
-  border-radius: 16px;
-  padding: 7px 22px;
-  font-size: 1rem;
-  cursor: pointer;
-  color: #444;
-  transition: background 0.2s;
-}
-
-.edit-btn:hover {
-  background: #f2eeee;
-}
-
 .profile-section-header {
   display: flex;
   justify-content: space-between;
@@ -159,3 +141,4 @@ main {
   font-size: 1.1rem;
   font-weight: 500;
 }
+
