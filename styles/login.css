@@ -1,6 +1,6 @@
 main {
   margin: 40px auto 0 auto;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .login-form {
@@ -10,9 +10,8 @@ main {
   margin-top: 30px;
 }
 
-.login-form h1 {
+.login-form h2 {
   text-align: center;
-  font-size: 3rem;
   margin-bottom: 30px;
   font-weight: bold;
 }
@@ -24,7 +23,7 @@ main {
 }
 
 .login-form input {
-  background: #99e6f0;
+  background: var(--secondary);
   border: none;
   border-radius: 10px;
   font-size: 1.2rem;
@@ -33,8 +32,8 @@ main {
 }
 
 .login-form button {
-  background: #0080bd;
-  color: #fff;
+  background:  var(--primary);
+  color: var(--background);
   font-size: 1.3rem;
   padding: 12px 0;
   border: none;
@@ -51,6 +50,6 @@ main {
 }
 
 .login-form .signup-link a {
-  color: #000;
+  color: var(--text);
   text-decoration: none;
 }
